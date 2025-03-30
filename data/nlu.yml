@@ -38,6 +38,7 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - you're right
 
 - intent: deny
   examples: |
@@ -48,6 +49,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - you're wrong
 
 - intent: mood_great
   examples: |
@@ -89,3 +91,4 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - who am I talking to?

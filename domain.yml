@@ -11,7 +11,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! How can I help you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -19,15 +19,18 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
+  - text: "Was this information helpful?"
 
   utter_happy:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Bye!"
+  - text: "Goodbye!"
+  - text: "See you next time!"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a chatbot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
