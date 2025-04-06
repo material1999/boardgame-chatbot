@@ -59,7 +59,7 @@ def create_prompt(user_query):
     embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vector_store = InMemoryVectorStore(embedding=embedding_model)
 
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=20)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=50)
     docs = text_splitter.split_documents(document)
 
     # text_splitter = SemanticChunker(embeddings=embedding_model)
