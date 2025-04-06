@@ -15,7 +15,10 @@ class ActionSessionStart(Action):
     ) -> List[EventType]:
 
         events = [SessionStarted(), ActionExecuted("action_listen")]
-        dispatcher.utter_message(text="Hi there! I'm your assistant. How can I help you today?")
+        dispatcher.utter_message(text="Hi there! I'm your personal board game chatbot.\n"
+                                      "You can ask me some questions about the rules of your favorite board game and "
+                                      "I will try my best to answer them.\n"
+                                      "How can I help you today?")
 
         return events
 
