@@ -1,5 +1,8 @@
 version: "3.1"
 
+actions:
+  - action_session_start
+
 intents:
   - greet
   - goodbye
